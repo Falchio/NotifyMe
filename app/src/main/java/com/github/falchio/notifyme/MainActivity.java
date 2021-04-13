@@ -51,6 +51,8 @@ public class MainActivity extends AppCompatActivity {
                 .setContentTitle("You've been notified!")
                 .setContentText("This is your notification text.")
                 .setSmallIcon(R.drawable.ic_android)
+                .setDefaults(NotificationCompat.DEFAULT_ALL) // устанавливает как ведете себя оповещение, есть ли у него звук, вибрация, LED индикация
+                .setPriority(NotificationCompat.PRIORITY_HIGH)
                 .setContentIntent(notificationPendingIntent)
                 .setAutoCancel(true); // при нажатии на оповещение закрывается сама
 
