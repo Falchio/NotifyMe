@@ -3,4 +3,7 @@
     <string name="notify_me">Notify Me!</string>
     <string name="update_me">Update Me!</string>
     <string name="cancel_me">Cancel Me!</string>
+    <string name="notification_channel_name">NOTIFY_CHANNEL</string>
+    <string name="notification_channel_description">NOTIFY_CHANNEL_DESCRIPTION</string>
+    <string name="notification_text">Notification text</string>
 </resources>
